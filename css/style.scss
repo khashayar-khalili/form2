@@ -1,0 +1,19 @@
+@import "./fonts";
+body {
+    font-family: "IRANSans";
+    direction: rtl;
+    .information {
+        padding: 25px;
+        text-align: right;
+        width: 50%;
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            background-color: #999999;
+            border-radius: 50%;
+            text-align: center;
+            padding: 24px;
+            color: #fcfcfc;
+        }
+    }
+}
