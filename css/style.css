@@ -44,18 +44,32 @@ body {
 }
 
 body .information {
+  background-color: #83807c;
   padding: 25px;
   text-align: right;
   width: 50%;
+  margin-right: 100px;
+}
+
+body .information input:hover {
+  background-color: #999999;
+}
+
+body .information .upload {
+  margin-top: -71px;
 }
 
 body .information .profile-image {
+  direction: ltr;
+  text-align: center;
   width: 100px;
   height: 100px;
   background-color: #999999;
   border-radius: 50%;
-  text-align: center;
   padding: 24px;
   color: #fcfcfc;
+  position: relative;
+  right: 200px;
+  bottom: 60px;
 }
 /*# sourceMappingURL=style.css.map */
